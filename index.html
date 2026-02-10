@@ -3,118 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alejandro Magotti - Especialista en Salud Mental</title>
+    <title>Lic. Alejandro Magotti - Especialista en Salud Mental</title>
     <style>
-        :root { --unla-blue: #004a99; --bonaparte-blue: #00a1e4; --health-green: #28a745; }
-        body { font-family: 'Segoe UI', Tahoma, sans-serif; line-height: 1.7; color: #2c3e50; max-width: 1000px; margin: 0 auto; padding: 20px; background-color: #fdfdfd; }
-        header { background: linear-gradient(135deg, var(--unla-blue), #002d5a); color: white; padding: 50px 20px; text-align: center; border-radius: 15px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
-        .nav-links { margin-top: 20px; }
-        .nav-links a { color: #ffc107; text-decoration: none; font-weight: bold; margin: 0 15px; padding: 5px 10px; border: 1px solid #ffc107; border-radius: 5px; transition: 0.3s; }
-        .nav-links a:hover { background: #ffc107; color: #002d5a; }
-        .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); margin-bottom: 30px; border-left: 6px solid var(--unla-blue); }
-        .cv-section { border-left-color: var(--health-green); background-color: #fcfcfc; }
-        h2 { color: var(--unla-blue); border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 0; }
-        .badge { background: var(--health-green); color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.9em; display: inline-block; margin-bottom: 10px; }
-        .timeline { border-left: 3px solid var(--unla-blue); padding-left: 20px; margin-left: 10px; }
-        .project-meta { background: #fff3cd; border-left: 6px solid #ffc107; padding: 20px; border-radius: 8px; margin-top: 20px; }
+        :root { --unla-blue: #004a99; --bonaparte-color: #00a1e4; --health-green: #28a745; --text-dark: #2c3e50; }
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; line-height: 1.7; color: var(--text-dark); max-width: 950px; margin: 0 auto; padding: 20px; background-color: #f8f9fa; }
+        
+        header { background: linear-gradient(135deg, var(--unla-blue), #002d5a); color: white; padding: 50px 20px; text-align: center; border-radius: 15px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { margin: 0; font-size: 2.5em; letter-spacing: 1px; }
+        .subtitulo { font-size: 1.2em; opacity: 0.9; margin-top: 10px; font-weight: 300; }
+        
+        .nav-links { margin-top: 25px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; }
+        .nav-links a { color: white; text-decoration: none; font-weight: bold; padding: 10px 20px; border-radius: 8px; transition: 0.3s; border: 1px solid rgba(255,255,255,0.3); font-size: 0.9em; }
+        .link-unla { background-color: rgba(255,255,255,0.1); }
+        .link-bonaparte { background-color: var(--bonaparte-color); border: none !important; }
+        .nav-links a:hover { transform: translateY(-2px); background-color: white; color: var(--unla-blue); }
+
+        .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 25px; border-left: 6px solid var(--unla-blue); }
+        .resaltado { background: #fff3cd; border-left: 6px solid #ffc107; padding: 20px; border-radius: 8px; margin: 20px 0; }
+        
+        h2 { color: var(--unla-blue); border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 0; font-size: 1.5em; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        
+        footer { text-align: center; padding: 30px; color: #7f8c8d; font-size: 0.85em; border-top: 1px solid #eee; margin-top: 40px; }
     </style>
 </head>
 <body>
 
     <header>
-        <div class="badge">Trayectoria Académica y Profesional</div>
         <h1>Lic. Alejandro Magotti</h1>
-        <p>Especialista en Salud Mental y Psiquiatría</p>
-        <div class="nav-links">
-            <a href="http://www.unla.edu.ar" target="_blank">Universidad Nacional de Lanús</a>
-            <a href="https://hospitalbonaparte.gob.ar" target="_blank">Hospital Lic. Laura Bonaparte</a>
-        </div>
-    </header>
-
-    <section class="card cv-section">
-        <h2>Currículum y Antecedentes Institucionales</h2>
-        <ul>
-            <li><strong>Residencia RISAM:</strong> Residencia Interdisciplinaria de Salud Mental en el <em>Hospital Lic. Laura Bonaparte</em>. Especialista en Salud Mental y Psiquiatría (Finalización: Octubre 2026).</li>
-            <li><strong>Gestión Universitaria:</strong> Miembro del Consejo Departamental de Graduados - Universidad Nacional de Lanús.</li>
-            <li><strong>Formación de Grado:</strong> Licenciado en Enfermería.</li>
-        </ul>
-    </section>
-
-    <div class="card">
-        <h2>Perspectiva de Investigación - Tesis de Maestría</h2>
-        <div class="timeline">
-            <p><strong>Marzo 2026:</strong> Inicio de la <em>Maestría en Salud Mental Comunitaria (UNLa)</em>.</p>
-            <p><strong>Proyección:</strong> Formación e investigación territorial con una duración estimada de 2 años y medio.</p>
-        </div>
-        <div class="project-meta">
-            <strong>Articulación Territorio-Tecnología:</strong> Este dispositivo digital se propone como una herramienta de intervención comunitaria que integre los procesos de asistencia con la producción de datos locales, fortaleciendo el lazo social en el área de influencia de la UNLa.
-        </div>
-    </div>
-
-    <div class="card">
-        <h2>Fundamentos Ético-Políticos (Ley 26.657)</h2>
-        <p>Este proyecto se inscribe en la plena implementación de la Ley Nacional de Salud Mental:</p>
-        <ul>
-            <li><strong>Abordaje Comunitario:</strong> Sustitución definitiva de las lógicas de aislamiento.</li>
-            <li><strong>Interdisciplina:</strong> Construcción de salud a través del diálogo de saberes.</li>
-            <li><strong>Derechos Humanos:</strong> Presunción de capacidad y derecho a la atención en el territorio.</li>
-        </ul>
-    </div>
-
-    <footer style="text-align: center; padding: 30px; color: #7f8c8d; font-size: 0.9em; border-top: 1px solid #eee; margin-top: 50px;">
-        Alejandro Magotti © 2026 | Desarrollado para la Maestría en Salud Mental Comunitaria (UNLa)
-    </footer>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alejandro Magotti - Especialista en Salud Mental</title>
-    <style>
-        :root { --unla-blue: #004a99; --bonaparte-color: #00a1e4; --health-green: #28a745; }
-        body { font-family: 'Segoe UI', Tahoma, sans-serif; line-height: 1.7; color: #2c3e50; max-width: 1000px; margin: 0 auto; padding: 20px; background-color: #fdfdfd; }
-        header { background: linear-gradient(135deg, var(--unla-blue), #002d5a); color: white; padding: 50px 20px; text-align: center; border-radius: 15px; margin-bottom: 30px; }
-        .nav-links { margin-top: 20px; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
-        .nav-links a { color: white; text-decoration: none; font-weight: bold; padding: 10px 20px; border-radius: 8px; transition: 0.3s; border: 2px solid white; }
-        .link-unla { background-color: var(--unla-blue); }
-        .link-bonaparte { background-color: var(--bonaparte-color); border-color: var(--bonaparte-color) !important; }
-        .nav-links a:hover { opacity: 0.8; transform: translateY(-2px); }
-        .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); margin-bottom: 30px; border-left: 6px solid var(--unla-blue); }
-        h2 { color: var(--unla-blue); border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 0; }
-        .badge { background: var(--health-green); color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.9em; display: inline-block; margin-bottom: 10px; }
-    </style>
-</head>
-<body>
-
-    <header>
-        <div class="badge">Trayectoria Académica y Profesional</div>
-        <h1>Lic. Alejandro Magotti</h1>
-        <p>Especialista en Salud Mental y Psiquiatría</p>
+        <div class="subtitulo">Especialista en Salud Mental y Psiquiatría</div>
+        
         <nav class="nav-links">
-            <a href="http://www.unla.edu.ar" target="_blank" class="link-unla">Sitio Web UNLa</a>
+            <a href="http://www.unla.edu.ar" target="_blank" class="link-unla">Portal UNLa</a>
             <a href="https://hospitalbonaparte.gob.ar" target="_blank" class="link-bonaparte">Hospital Lic. Laura Bonaparte</a>
         </nav>
     </header>
 
     <section class="card">
-        <h2>Currículum y Antecedentes Institucionales</h2>
+        <h2>Trayectoria Institucional y Académica</h2>
         <ul>
-            <li><strong>Residencia RISAM:</strong> Hospital Lic. Laura Bonaparte. Finalización en Octubre con título de Especialista.</li>
-            <li><strong>Gestión:</strong> Miembro del Consejo Departamental de Graduados - UNLa.</li>
-            <li><strong>Grado:</strong> Licenciado en Enfermería.</li>
+            <li><strong>Residencia RISAM:</strong> Hospital Lic. Laura Bonaparte. Especialista en Salud Mental y Psiquiatría (Finalización: Octubre 2026).</li>
+            <li><strong>Consejo Departamental de Graduados:</strong> Miembro integrante de la Universidad Nacional de Lanús.</li>
+            <li><strong>Formación de Grado:</strong> Licenciado en Enfermería.</li>
         </ul>
     </section>
 
-    <div class="card">
+    <section class="card">
         <h2>Proyecto de Tesis - Maestría UNLa</h2>
-        <p><strong>Inicio:</strong> Marzo 2026 | <strong>Duración:</strong> 2 años y medio.</p>
-        <p style="background: #fff3cd; padding: 15px; border-radius: 8px;">
-            Este dispositivo articula la Salud Mental Comunitaria con herramientas tecnológicas para fortalecer el lazo social en el territorio de Lanús.
-        </p>
-    </div>
+        <p><strong>Cronograma:</strong> Inicio en Marzo 2026 | Duración estimada: 2 años y medio.</p>
+        
+        <div class="resaltado">
+            <strong>Eje de Investigación:</strong> Este dispositivo digital busca articular el marco teórico de la Salud Mental Comunitaria con herramientas tecnológicas para fortalecer el lazo social en el territorio de influencia de la UNLa.
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>Marco Ético-Político (Ley 26.657)</h2>
+        <p>El desarrollo de este software se rige bajo los principios de la Ley Nacional de Salud Mental:</p>
+        <ul>
+            <li><strong>Abordaje Comunitario:</strong> Sustitución definitiva de las lógicas de aislamiento y encierro.</li>
+            <li><strong>Interdisciplina:</strong> Integración de saberes para una clínica de lo común.</li>
+            <li><strong>Derechos Humanos:</strong> Presunción de capacidad y derecho a la atención en el territorio.</li>
+        </ul>
+    </section>
+
+    <footer>
+        © 2026 Alejandro Magotti | Desarrollado para la Maestría en Salud Mental Comunitaria (UNLa)
+    </footer>
 
 </body>
 </html>
