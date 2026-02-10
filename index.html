@@ -76,6 +76,48 @@
             <li><a href="http://www.ms.gba.gov.ar" target="_blank" style="color: var(--health-green);">Subsecretaría de Salud Mental - PBA</a></li>
         </ul>
     </section>
+    <section class="card">
+        <h2>Formulario de Registro de Intervención</h2>
+        <p>Complete los datos de la intervención territorial para el seguimiento de la tesis:</p>
+        
+        <form style="display: flex; flex-direction: column; gap: 15px;">
+            <div>
+                <label style="display: block; font-weight: bold;">Fecha:</label>
+                <input type="date" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+            </div>
+
+            <div>
+                <label style="display: block; font-weight: bold;">Dispositivo Territorial:</label>
+                <select style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+                    <option>Centro de Integración Comunitaria (CIC)</option>
+                    <option>Centro de Salud (CAPS)</option>
+                    <option>Hospital de Día / Casa de Convivencia</option>
+                    <option>Intervención en Vía Pública / Domicilio</option>
+                    <option>Otro dispositivo de la Red</option>
+                </select>
+            </div>
+
+            <div>
+                <label style="display: block; font-weight: bold;">Eje de la Intervención:</label>
+                <select style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+                    <option>Entrevista de Admisión / Orientación</option>
+                    <option>Acompañamiento en crisis</option>
+                    <option>Gestión de recursos / Redes</option>
+                    <option>Control de tratamiento farmacológico</option>
+                    <option>Talleres / Actividades grupales</option>
+                </select>
+            </div>
+
+            <div>
+                <label style="display: block; font-weight: bold;">Observaciones / Crónica:</label>
+                <textarea rows="4" placeholder="Describa brevemente la intervención..." style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;"></textarea>
+            </div>
+
+            <button type="button" onclick="alert('Registro guardado localmente (Simulación)')" style="background-color: var(--health-green); color: white; border: none; padding: 15px; border-radius: 8px; font-weight: bold; cursor: pointer;">
+                Guardar Registro de Intervención
+            </button>
+        </form>
+    </section>
 <footer>
         © 2026 Alejandro Magotti | Desarrollado para la Maestría en Salud Mental Comunitaria (UNLa)
     </footer>
