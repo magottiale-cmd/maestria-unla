@@ -1,40 +1,63 @@
-index.html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salud Mental Comunitaria - UNLa</title>
+    <title>Tesis Salud Mental Comunitaria - UNLa</title>
     <style>
-        /* Estética profesional: Azul UNLa y Verde Salud */
-        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; background-color: #f0f4f8; }
-        header { background-color: #004a99; color: white; padding: 30px; text-align: center; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        .card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); margin-bottom: 25px; border-left: 5px solid #28a745; }
-        h2 { color: #004a99; margin-top: 0; border-bottom: 1px solid #eee; padding-bottom: 10px; }
-        .nota { background-color: #e8f5e9; padding: 15px; border-radius: 8px; font-style: italic; color: #2e7d32; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8; color: #2c3e50; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #fdfdfd; }
+        header { background-color: #004a99; color: white; padding: 40px 20px; text-align: center; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        h1 { margin: 0; font-size: 2.2em; }
+        .tesis-box { background-color: #fff3cd; border-left: 6px solid #ffc107; padding: 20px; margin-bottom: 30px; border-radius: 4px; font-style: italic; }
+        .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 30px; border-top: 4px solid #28a745; }
+        h2 { color: #004a99; border-bottom: 1px solid #ddd; padding-bottom: 10px; }
+        .grid { display: flex; gap: 20px; flex-wrap: wrap; }
+        .item { flex: 1; min-width: 250px; background: #f8f9fa; padding: 15px; border-radius: 8px; }
+        footer { text-align: center; font-size: 0.9em; color: #7f8c8d; margin-top: 40px; padding: 20px; border-top: 1px solid #eee; }
     </style>
 </head>
 <body>
 
     <header>
         <h1>Dispositivo Digital de Salud Mental</h1>
-        <p>Maestría en Salud Mental Comunitaria - UNLa | Alejandro Magotti</p>
+        <p>Hacia una clínica de lo común y el lazo social</p>
     </header>
 
+    <section class="tesis-box">
+        <strong>Nota de Proyecto:</strong> Este dispositivo forma parte de la propuesta de Tesis para la 
+        <em>Maestría en Salud Mental Comunitaria (UNLa)</em>. El objetivo es articular la gestión de datos tecnológicos 
+        con las redes territoriales, promoviendo herramientas que fortalezcan la asistencia directa y la producción de conocimiento local.
+    </section>
+
     <div class="card">
-        <h2>Marco Normativo: Ley 26.657</h2>
-        <p>Este espacio digital se fundamenta en el abordaje interdisciplinario y la desmanicomialización.</p>
+        <h2>Marco Normativo y Principios (Ley 26.657)</h2>
+        <p>Bajo el paradigma de Derechos Humanos, este proyecto asume que:</p>
+        <div class="grid">
+            <div class="item">
+                <strong>Sustitución del Manicomio:</strong> El proceso de desmanicomialización no es solo el cierre del hospital monovalente, sino la creación de dispositivos sustitutivos en la comunidad.
+            </div>
+            <div class="item">
+                <strong>Interdisciplina:</strong> El abordaje requiere la integración de saberes (enfermería, psicología, trabajo social, medicina) sin jerarquías médicas preestablecidas.
+            </div>
+            <div class="item">
+                <strong>Lazo Social:</strong> El padecimiento mental no es una "enfermedad del cerebro", sino un proceso complejo que requiere el fortalecimiento de los vínculos territoriales.
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Compromiso Comunitario - Eje UNLa</h2>
+        <p>La Universidad Nacional de Lanús se inserta en un territorio con necesidades específicas. Este software busca:</p>
         <ul>
-            <li><strong>Derecho:</strong> Atención basada en la comunidad.</li>
-            <li><strong>Principio:</strong> Presunción de capacidad de todas las personas.</li>
-            <li><strong>Meta:</strong> Sustitución de instituciones de aislamiento.</li>
+            <li>Facilitar la comunicación entre los equipos de salud y las organizaciones sociales de la zona sur.</li>
+            <li>Producir estadísticas locales que permitan exigir políticas públicas basadas en evidencia territorial.</li>
+            <li>Empoderar a los usuarios del sistema de salud a través del acceso a su propia información y recursos.</li>
         </ul>
     </div>
 
-    <div class="card">
-        <h2>Observatorio Territorial</h2>
-        <p class="nota">Próximamente: Formulario de carga de datos para intervenciones en el territorio de Lanús y alrededores.</p>
-    </div>
+    <footer>
+        Mag. Salud Mental Comunitaria (en formación) - Universidad Nacional de Lanús
+    </footer>
 
 </body>
 </html>
-
